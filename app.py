@@ -23,7 +23,7 @@ def home():
     """Displays Welcome!"""
     return "Welcome To my Site!"
 
-@app.route('/api/v1/details/all', methods=['GET'])
+@app.route('/api/v1/detail', methods=['GET'])
 def api_all():
     return jsonify(details)
 
