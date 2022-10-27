@@ -1,18 +1,20 @@
 #!/usr/bin/python3
 import flask
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 
 
 app = Flask(__name__)
+CORS(app)
 
 app.config['JSON_SORT_KEYS'] = False
 
 
 details = [
-    {'slackUsername': 'NikkyXO',
-     'backend': 'Yes',
-     'age': '29.',
-     'bio': '1993'}
+    {'slackUsername': 'Nikki',
+     'backend': True,
+     'age': 28,
+     'bio': 'Nikki was born in Lagos in 1994'}
 ]
 
 
