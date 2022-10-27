@@ -10,12 +10,10 @@ CORS(app)
 app.config['JSON_SORT_KEYS'] = False
 
 
-details = [
-    {'slackUsername': 'Nikki',
+details = {'slackUsername': 'Nikki',
      'backend': True,
      'age': 28,
      'bio': 'Nikki was born in Lagos in 1994'}
-]
 
 
 @app.route("/", methods=['GET'], strict_slashes=False)
