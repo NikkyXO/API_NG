@@ -18,8 +18,8 @@ app.config['SECRET_KEYS'] = environ.get('MY_SECRET_KEYS')
 
 details = {'slackUsername': 'Nikky',
      'backend': True,
-     'age': 28,
-     'bio': 'Nikki was born in Lagos in 1994'}
+     'age': 27,
+     'bio': 'Nikki was born in Lagos in 1995'}
 
 slackUsername = 'Nikky'
 
